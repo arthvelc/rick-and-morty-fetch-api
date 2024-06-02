@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #333;
+    font-family: "Oswald", sans-serif;
+}
+.para-mi-amor{
+    background-color: #777;
+    font-size: 5rem;
+    color: #f3eeee;
+    text-align: center;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin: 5rem;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+    rotate: deg(360);
+}
+
+
+.card-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.card-container h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-container p {
+    font-size: 1.4rem;
+    color: #777;
+}

@@ -1,0 +1,36 @@
+# Node.js
+node_modules/
+
+# Dependencias de desarrollo
+devDependencies/
+
+# Archivos de construcción
+dist/
+build/
+
+# Archivos de configuración
+.env
+
+# Archivos de respaldo
+*.bak
+*.swp
+
+# Archivos de registro
+*.log
+
+# Archivos de caché
+.cache/
+
+# Archivos de respaldo de IDE
+.idea/
+.vscode/
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode 
