@@ -19,13 +19,19 @@ html{
     margin-top: 5rem;
     padding: 2rem;
     text-shadow: #333 2px 0 0;
-    box-shadow: 0 0 1rem rgb(236, 234, 234);
+    
+    transition: transform 1s;
 }
 
+.para-mi-amor:hover{
+    transform: scale(1.1);
+    font-size: 6rem;
+    box-shadow: 0 0 1rem rgb(236, 234, 234);
+}
 .main-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 3rem;
     margin: 5rem;
     
 }
@@ -37,9 +43,17 @@ html{
     background-color: #fff;
     border-radius: 10px;
     padding: 2rem;
-    box-shadow: 0 0 .7rem rgb(236, 234, 234);
-    transition: 0.3s;
-    rotate: deg(360);
+    
+    transition: transform 1s;
+    
+}
+
+.card-container:hover{
+    box-shadow: 0 0 1rem rgb(236, 234, 234);
+    transform: scale(1.1);
+    transform: rotate(4deg);
+    background-color: #636363;
+    color: #fff;
 }
 
 
@@ -59,4 +73,18 @@ html{
 .card-container p {
     font-size: 1.4rem;
     color: #777;
+}
+
+.card-container p:hover{
+    color: #f3eeee;
+}
+
+
+
+/*mobile*/
+@media screen and (max-width: 768px){
+    .main-container{
+        grid-template-columns: 1fr;
+    }
+
 }
