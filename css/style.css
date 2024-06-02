@@ -8,25 +8,30 @@
 
 html{
     font-size: 62.5%;
-    background-color: #333;
     font-family: "Oswald", sans-serif;
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/04/rick-and-morty-wallpaper-portal-wallpaper-001.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
 .para-mi-amor{
-    background-color: #777;
+    background-color: #7777776b;
     font-size: 5rem;
     color: #f3eeee;
     text-align: center;
     margin-top: 5rem;
     padding: 2rem;
     text-shadow: #333 2px 0 0;
-    
-    transition: transform 1s;
+    overflow: auto;
+    width: 100%;
+    transition: transform 2s;
 }
 
 .para-mi-amor:hover{
     transform: scale(1.1);
     font-size: 6rem;
-    box-shadow: 0 0 1rem rgb(236, 234, 234);
+    box-shadow: 0 0 1rem rgb(3, 3, 3); 
 }
 .main-container{
     display: grid;
@@ -41,7 +46,7 @@ html{
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 1.5rem;
     padding: 2rem;
     
     transition: transform 1s;
@@ -49,10 +54,10 @@ html{
 }
 
 .card-container:hover{
-    box-shadow: 0 0 1rem rgb(236, 234, 234);
+    box-shadow: 0 0 3rem rgb(0, 0, 0);
     transform: scale(1.1);
     transform: rotate(4deg);
-    background-color: #636363;
+    background-color: #84d37ac7;
     color: #fff;
 }
 
@@ -65,13 +70,13 @@ html{
 }
 
 .card-container h3 {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
 
 .card-container p {
-    font-size: 1.4rem;
+    font-size: 2rem;
     color: #777;
 }
 
